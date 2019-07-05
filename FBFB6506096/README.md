@@ -19,9 +19,12 @@ No such module '<Package name>'
 ## Observations
 
 This might be related to a fact, that Xcode seems to ignore DebugDevelop configuration name, and continues to build for Debug configuration instead.
-If you go into DerivedData folders, specifically Build/Products folder, you can see that there are two folders present : `DebugDevelop-iphonesimulator`, in which app build products are located, and `Debug-iphonesimulator` folder, in which package build products are located.
+If you go into DerivedData folders, specifically Build/Products folder, you can see that there are two folders present : `DebugDevelop-iphonesimulator`, in which app build products are located, and `Debug-iphonesimulator` folder, in which package build products are located. Product -> Archive also fails, because ReleaseProduction configuration is ignored as well.
 This leads us to believe that DebugDevelop build configuration is ignored when building dependencies using SwiftPM.
 
+## Environment
+
+Xcode 11 beta 1,2,3.
 
 ## Steps to Reproduce
 
