@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LoadableViews",
+        "repositoryURL": "https://github.com/MLSDev/LoadableViews",
+        "state": {
+          "branch": null,
+          "revision": "737dba334e837c71c705d5590b56559735f4e20d",
+          "version": "3.4.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
