@@ -1,3 +1,5 @@
+[Task on Swift Jira](https://bugs.swift.org/browse/SR-11328)
+
 #  Xcode fails to compile a project with SPM package and build configuration other than Debug/Release
 
 When dealing with multiple server environments, it's useful to have additional build configurations other than Debug/Release to match them with actual server environment build is running on.
